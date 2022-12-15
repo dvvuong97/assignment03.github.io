@@ -1,0 +1,112 @@
+/*-------------------------------- Mobile---------------- */
+@media (max-width: 768px) {
+  section > .container{ 
+    width: 100%;
+    height: auto;
+  }
+  /* -----------Banner--------------- */
+  .banner-text {
+    top: 17%;
+  }
+  .banner-text h1 {
+    font-size: 28px;
+  }
+  .banner-text span {
+    font-size: 17px;
+  }
+/* ----------Navbar------------------ */
+  section#nav-bar > .container {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
+  a.nav-link {
+    margin-top: 10px;
+    border-left: none;
+    border-right: none;
+    font-size: 18px;
+    padding: 0;
+    text-align: left;
+  }
+  a.nav-link i {
+    margin-right: 10px;
+  }
+  a.nav-info {
+    display: none;
+  }
+  /* -----------Ẩn navbar ở giữa------------- */
+  #nav-bar img.images-cv  {
+    display: none;
+  }
+
+  /* -------Muc tiêu nghề nghiêp----------- */
+ #about > .container{ 
+    width: 100%!important;
+    height: auto !important;
+  }
+
+  #target {
+    padding: 10px 30px;
+  }
+
+  #personal-info {
+    padding: 10px 30px;
+  }
+
+  /* #job-info > .container {
+  width: 100%!important;
+  } */
+  /* ---------Kinh nghiêm làm viêc----------- */
+  .ic-tools-2, .ic-mic, .ic-telescope  {
+    margin-left: 60px!important;
+    font-size: 50px;
+  }
+  .ic-toolbox, .ic-pencil {
+    font-size: 50px;
+    margin-top: 30px;
+  } 
+  /* ----Sở thích---------- */
+  .hobby-contents ul.list-hobby li.hobby-text i{
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+}
+
+/* -------Chứng chỉ------------ */
+/* #certificate > .container {
+  width: 100%;
+} */
+
+.certificate-text {
+  flex-direction: column;
+}
+.certificate-text:first-child {
+  margin-bottom: 30px;
+}
+.certificate-text img.images {
+  width: 300px; 
+  height: auto;
+
+}
+.certificate-text-2{
+  border-left:none;
+  padding-top: 20px;
+  border-top: 1px solid #d6c08d;
+}
+/* -------Dư.án----------- */
+.project-contents {
+  margin-bottom: 30px;
+}
+
+.project-info ul.list li{
+  padding: 0px;
+}
+
+.project-info ul.list li p.time{
+  margin-top: 10px;
+}
+
+}
+
+ 

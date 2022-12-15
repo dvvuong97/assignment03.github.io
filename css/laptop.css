@@ -1,0 +1,451 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bg-grey {
+    background: #f7f7f7;
+
+}
+
+section {
+    margin: 0px 50px;
+}
+
+section > .container {
+    width: 1170px;
+    margin: auto;
+    display: block;
+    padding: 30px 50px;
+}
+
+
+/*-----------CSS BANNER---------------*/
+
+.banner-image {
+    position: relative;
+    margin-bottom: -4px;
+}
+
+.banner-text {
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-text h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.banner-text span {
+    font-size: 20px;
+    color: #d4d4d4;
+}
+
+/* -------------CSS NAV -------------*/
+
+#nav-bar > .container {
+    display: flex;
+    padding: 0 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+a.nav-link {
+    margin-top: 7px;
+    color: black;
+    padding: 25px 40px;
+    border-right: 1px solid rgb(239, 238, 238);
+    border-left: 1px solid rgb(239, 238, 238);
+    text-transform: uppercase;
+}
+
+a.nav-info {
+    padding: 13px 150px;
+    text-align: center;
+    
+}
+a.nav-link, a.nav-info {
+    border-right: 1px solid rgb(239, 238, 238);
+    border-left: 1px solid rgb(239, 238, 238);
+    text-decoration: none;
+}
+.nav-info h2 {
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-info p {
+    color: rgb(212, 212, 212);
+}
+
+nav.container a i {
+    color: rgb(7, 139, 254);
+}
+/* ------Navbar images---------- */
+#nav-bar {
+    position: relative;
+}
+
+img.images-cv {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -50%;
+    left: 45%;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+img.images-cv:hover {
+    transform: scale(1.3);
+    transition: 0.7s;
+}
+/* -------------MUC TIÊU NGHỀ NGHIÊP---------------- */
+
+.about-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    padding: 0;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#target {
+    height: auto;
+}
+
+#personal-info {
+    background-color: rgb(238, 238, 238);
+    height: auto;
+    margin-top: 30px;
+}
+
+#target p {
+    font-size: 17px;
+
+}
+
+ul.info {
+    padding: 0;
+    line-height: 28px;
+}
+
+ul.info li {
+    list-style: none;
+}
+
+ul.info span {
+    font-weight: bold;
+}
+
+/*---------- CSS Đường link cá nhân------- */
+ul.icons-info  {
+    display: flex;
+    padding: 0 ;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+ul.icons-info li {
+    list-style: none;
+    margin-right: 20px;
+}
+ul.icons-info li:hover {
+    transform: scale(1.4);
+}
+ul.icons-info li a{
+    font-size: 20px;
+}
+
+ul.icons-info i{
+    color: rgb(7, 139, 254);
+}
+
+/* --------------------THÔNG TIN CÔNG VIÊC------------------ */
+/*---------------CSS CHUNG KINH NGHIÊM,Hoạt động,Học vấn  -------------*/
+
+.job-info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+}
+
+.title-h1 {
+    grid-column-start: 1; grid-column-end: 3;
+    font-size: 25px;
+    margin: 35px 0 50px 30px;
+}
+
+.experience-contents, .activity-contents, 
+.education-contents
+ {
+    display: grid;
+    border: 1px solid rgb(239, 238, 238);
+}
+
+.ic-toolbox, .ic-pencil
+{
+    grid-column-start: 3; grid-column-end: 4;
+    font-size: 50px;
+    margin: 50px 0 50px 50px;
+}
+
+ul.list-contents li {
+    position: relative;
+    font-size: 17px;
+    list-style: none;
+}
+/* --- CSS 2 dấu chấm xanh li ----- */
+ul.list-contents li::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: rgb(4, 180, 255);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 5px;
+    left: -25px;
+}
+
+/* ---------------------------------- */
+
+/*---------KINH NGHIÊM ----------- */
+
+ul.list-contents {
+    grid-column-start: 1; grid-column-end: 4;
+    margin-left: 15px;
+} 
+
+ul.list-contents li {
+    margin-bottom: 50px;
+}
+/* -------CSS chữ Hiện tại----------- */
+ul.list-contents li em{
+    padding: 4px 15px;
+    background-color: rgb(19, 184, 254);
+    border-radius:15px;
+    color: white;
+}
+
+ul.list-contents li h4 {
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+
+ul.list-contents li p {
+    color: rgb(163, 162, 162);
+    margin-bottom: 5px;
+    line-height: 25px;
+    margin-right: 15px;
+}
+
+/* --------CSS CHUNG PHẦN-- KỸ NĂNG VÀ NGÔN NGỮ------------------- */
+
+.skill-contents, .language-contents {
+    border: 1px solid rgb(239, 238, 238);
+}
+
+.skill-contents h1.title-h1, 
+.language-contents h1.title-h1, 
+.hobby-contents  h1.title-h1{
+    display: inline-block;
+}
+
+/*----Css icons------- */
+.ic-tools-2, .ic-mic, .ic-telescope  {
+    font-size: 50px;
+    margin-left: 120px;
+}
+
+.skill, .language {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+/* ------Css đường line------------- */
+span.skill-line, span.language-line {
+    display: inline-block;
+    height: 3px;
+    margin-right: 10px;
+    width: 50px;
+    background: rgb(163, 162, 162);
+}
+
+/* -------------SỞ THÍCH ------------------- */
+.hobby-contents{
+    /* width: 390px; */
+    border: 1px solid rgb(239, 238, 238);
+}
+
+.hobby-contents ul.list-hobby {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+.hobby-contents ul.list-hobby li.hobby-text i{
+    padding: 20px;
+    font-size: 25px;
+    margin-right: 10px;
+    border: 1px solid rgb(19, 184, 254);
+    border-radius: 50%;
+    color: rgb(19, 184, 254);
+    margin-bottom: 10px;
+}
+/* -----Hover---------- */
+.ic-toolbox:hover, .ic-pencil:hover, .ic-telescope:hover,
+.ic-tools-2:hover, .ic-mic:hover{
+    transition: 0.7s;
+    transform: scale(1.4);
+}
+.hobby-contents ul.list-hobby li.hobby-text:hover {
+    transition: 0.3s;
+    transform: scale(1.4);
+}
+/* -------------CHỨNG CHỈ - GIẢI THƯỞNG------------------ */
+/* .certificate-contents {
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+} */
+
+.certificate-text {
+    display: flex;
+    padding-left: 20px;
+}
+
+.certificate-text img.images {
+    margin-right: 20px;
+    width:240px; 
+}
+.certificate-text-2 {
+    border-left: 1px solid #d6c08d;
+    margin-bottom: 40px;
+}
+.certificate-text-3 {
+    grid-column: 1 / -1;
+    padding-top: 40px;
+    border-top: 1px solid #d6c08d;
+
+}
+
+.certificate-text .images:hover {
+    transform: scale(1.1);
+}
+
+.certificate-text .text span {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-size: 12px;
+}
+
+/* ----------------DỰ ÁN ----------------------*/
+.section-project {
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:30px;
+}
+/*---------------- CSS Image-------- */
+
+.project-contents img {
+    width: 100%;    
+}
+/* -----Css tiêu đề chính dư án--------- */
+.project-title {
+   text-transform: uppercase;
+   font-weight: bold;
+   padding: 15px 0px 15px 30px;
+   border: 1px solid rgb(239, 238, 238);
+}
+
+.project-info ul.list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 0px;
+    border: 1px solid rgb(239, 238, 238);
+}
+
+.project-info ul.list li {
+    padding: 15px 0px 15px 15px;
+}
+
+/* ------------CSS Mốc thời gian-------- */
+.project-info ul.list  li p.time {
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(63, 199, 245);
+    border-radius: 30px;
+}
+.project-info ul.list  li i{
+    margin-right: 5px;
+}
+/* --------CSS TABLE------- */
+table {
+    width: 100%;
+    /* border-collapse: collapse; */
+    /* height: 300px; */
+}
+table, td  {
+    border: 1px solid rgb(239, 238, 238);   
+}
+/* -------Kẻ đường border right thành màu trắng---------- */
+table.project-table .left {
+    border-right: 1px solid rgb(255, 255, 255);
+    width: 30%;
+}
+
+table.project-table td {
+    vertical-align: top;
+    padding: 5px 15px;
+}
+
+/* ----------------FOOTER ----------------------*/
+#footer > .container{
+    padding: 0;
+    margin-bottom: 0;
+}
+ul.list-icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 0px;
+}
+ul.list-icons li {
+    padding: 5px 15px;
+}
+ul.list-icons a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul.list-icons  i {
+    color: rgb(0, 200, 255);
+    font-size: 25px;
+}
+ul.list-icons i:hover {
+    color: red;
+    transition: 0.3;
+    transform: scale(1.3);
+}

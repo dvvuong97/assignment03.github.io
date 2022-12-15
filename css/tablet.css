@@ -1,0 +1,133 @@
+
+/* -------------- Tablets Lớn------------------------- */
+@media (min-width: 1025px) and (max-width:1199px){
+  a.nav-link {
+    padding: 20px;
+  }
+
+  .title-h1 {
+    margin-top: 35px!important;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+/* Thẻ h4 trong kinh nghiêm làm viêc */
+ul.list-contents li {
+  margin-bottom: 20px;
+}
+ul.list-contents li h4 {
+  font-size: 18px;
+}
+/*------------Icon kinh nghiêm làm viêc-------*/
+.ic-tools-2, .ic-mic, .ic-telescope  {
+  font-size: 40px;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.ic-toolbox, .ic-pencil {
+  font-size: 40px;
+  margin-top: 30px;
+  margin-left: 60px;
+} 
+
+/* ----------------Sở thích------------ */
+  .hobby-contents ul.list-hobby li.hobby-text i{
+    padding: 10px;
+    font-size: 15px;
+    margin-right: 2px;
+}
+
+/* ------------------Dư.Án----------------- */
+.project-info ul.list li {
+  padding:5px 10px;
+  margin-right: -30px;
+    margin-left: 12px;
+
+}
+.project-info ul.list li p.time {
+  padding: 8px 13px;
+  margin-bottom: 0px;
+}
+}
+/* -------------- Tablets ------------------------- */
+@media (min-width:768px) and (max-width:1024px) {
+  .banner-text h1 {
+    font-size: 35px;
+  }
+
+  /* Responsive Navbar */
+  #nav-bar img.images-cv  {
+    display: none;
+  }
+  a.nav-link {
+    padding: 20px;
+  }
+  a.nav-info {
+    padding: 5px;
+  }
+/* Responsive Muc tiêu nghề nghiêp */
+  #target {
+    padding: 10px ;
+    width: 47%;
+}
+
+#personal-info {
+    width: 47%;
+    padding: 10px ;
+}
+.title-h1 {
+  font-size: 20px;
+}
+/* Responsive Kinh nghiêm, sở thích */
+.ic-tools-2, .ic-mic, .ic-telescope  {
+  font-size: 35px;
+  margin-top: 30px;
+
+}
+.ic-toolbox, .ic-pencil {
+  font-size: 35px;
+  margin-top: 30px;
+
+} 
+
+.hobby-contents ul.list-hobby li.hobby-text i{
+  padding: 10px;
+  font-size: 12px;
+}
+
+/* Responsive Chứng chỉ */
+.certificate-text {
+  flex-direction: column;
+  gap: 20px;
+}
+.certificate-text img.images {
+  margin-right: 20px;
+}
+
+/* Responsive Dư.Án*/
+.project-title {
+  font-size: 12px;
+  padding: 5px!important;
+}
+.project-info ul.list li p.time {
+  margin-top: 10px;
+  padding: 3px;
+
+}
+.project-info ul.list li {
+  font-size: 13px;
+  padding: 0!important;
+  margin-right: -10px;
+    margin-left: 12px;
+
+}
+
+/* Responsive Dư.Án Table*/
+td.left {
+  width: 25%;
+}
+table.project-table td {
+  padding: 0px 5px;
+  font-size: 14px;
+}
+}
